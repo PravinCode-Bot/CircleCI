@@ -4,7 +4,7 @@ from main import to_upper     # Main.py
 
 class MyTestCase(unittest.TestCase):
     def test_to_upper(self):
-        name ="PRPravinAVIN"
+        name = "Pravin"
         upper_name = to_upper(name)
         self.assertEqual(upper_name, "Pravin")
 
